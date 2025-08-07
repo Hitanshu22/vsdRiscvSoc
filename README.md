@@ -77,7 +77,7 @@ export PATH=$pwd/riscv_toolchain/riscv64-unknown-elf-gcc-8.3.0-2019.08.0-x86_64-
 ```bash
 echo 'export PATH=$HOME/riscv_toolchain/riscv64-unknown-elf-gcc-8.3.0-2019.08.0-x86_64-linux-ubuntu14/bin:$PATH' >> ~/.bashrc
 ```
-![alt text](<WhatsApp Image 2025-08-07 at 21.56.57_fac61c9f.jpg>)
+[text](<WhatsApp Image 2025-08-07 at 21.56.57_fac61c9f.jpg>)
 ### If you get error:
 
 > `riscv64-unknown-elf-gdb: error while loading shared libraries: libncurses.so.5`
