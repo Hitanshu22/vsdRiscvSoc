@@ -13,33 +13,34 @@
 ## Toolchain Verification
 
 ### Spike Version and riscv64-unknown-elf-gcc -v (both in the same screenshot)
-### Output
-<img width="752" height="49" alt="spike -version" src="https://github.com/user-attachments/assets/cdea4e35-a52f-4033-ba04-b613a1fffade" />
+## Output
+<img width="1219" height="589" alt="image" src="https://github.com/user-attachments/assets/273a2db4-00a4-408c-bb81-caf9db7e18ba" />
+
 
 ### Compile Commands: -
 
-#### For factorial.c
+### For factorial.c
 ```
 riscv64-unknown-elf-gcc -O0 -g -march=rv64imac -mabi=lp64 \
 -DUSERNAME="\"$U\"" -DHOSTNAME="\"$H\"" -DMACHINE_ID="\"$M\"" \
 -DBUILD_UTC="\"$T\"" -DBUILD_EPOCH=$E \
 factorial.c -o factorial
 ```
-#### For max_array.c
+### For max_array.c
 ```
 riscv64-unknown-elf-gcc -O0 -g -march=rv64imac -mabi=lp64 \
 -DUSERNAME="\"$U\"" -DHOSTNAME="\"$H\"" -DMACHINE_ID="\"$M\"" \
 -DBUILD_UTC="\"$T\"" -DBUILD_EPOCH=$E \
 max_array.c -o max_array
 ```
-#### For bitops.c
+### For bitops.c
 ```
 riscv64-unknown-elf-gcc -O0 -g -march=rv64imac -mabi=lp64 \
 -DUSERNAME="\"$U\"" -DHOSTNAME="\"$H\"" -DMACHINE_ID="\"$M\"" \
 -DBUILD_UTC="\"$T\"" -DBUILD_EPOCH=$E \
 bitops.c -o bitops
 ```
-#### For bubble_sort.c
+### For bubble_sort.c
 ```
 riscv64-unknown-elf-gcc -O0 -g -march=rv64imac -mabi=lp64 \
 -DUSERNAME="\"$U\"" -DHOSTNAME="\"$H\"" -DMACHINE_ID="\"$M\"" \
@@ -49,7 +50,7 @@ bubble_sort.c -o bubble_sort
 
 ## Proof of Uniqueness
 
-### Each program output includes a clearly visible `ProofID` and `RunID`, which are generated using a 64-bit FNV-1a hash based on: -
+## Each program output includes a clearly visible `ProofID` and `RunID`, which are generated using a 64-bit FNV-1a hash based on: -
 
 - `USERNAME`
 - `HOSTNAME`
@@ -58,7 +59,7 @@ bubble_sort.c -o bubble_sort
 - `BUILD_EPOCH`
 - `Program name`
 
-### These fields ensure the build is unique to my machine and identity. All screenshots and output files (e.g., `factorial_output.png`, `bitops_output.png`) clearly show these values for verification.
+## These fields ensure the build is unique to my machine and identity. All screenshots and output files (e.g., `factorial_output.png`, `bitops_output.png`) clearly show these values for verification.
 
 
 
