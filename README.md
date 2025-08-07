@@ -234,7 +234,6 @@ spike pk ./unique_test
 **Output**:-
 ![alt text](<WhatsApp Image 2025-08-07 at 19.47.55_0f7d11e6.jpg>)
 ## Conclusion
+This task provided valuable hands-on experience with the bare-metal RISC-V development workflow — covering everything from toolchain setup to compiling and executing C programs on an ISA-level simulator. Successfully performing these steps on Ubuntu enhanced my understanding of open-source hardware development and low-level Linux-based toolchains.
 
-This task helped me gain hands-on experience with the bare-metal RISC-V development workflow — from toolchain installation to running RISC-V C programs on an ISA simulator. Successfully completing the steps on Rocky Linux also improved my understanding of open-source hardware workflows and low-level Linux development.
-
-This setup forms a strong foundation for upcoming lab phases involving RTL simulation, synthesis, and SoC-level design integration.
+Overall, this setup establishes a solid foundation for more advanced phases of the lab, including RTL simulation, hardware synthesis, and full SoC-level design and integration.
