@@ -34,7 +34,7 @@ This repository documents the steps and verification outputs for **Task 1** of t
 
 ## Results
 
-- **Source file**: [`unique_test.c`](./unique_test.c)  
+- **Source file**: [`unique_test.c`](./Unique_test.c)  
 - **Program Output from** `spike pk ./unique_test`: [`Output`](./Output.txt)
 
 
