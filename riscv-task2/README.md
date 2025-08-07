@@ -12,15 +12,9 @@
 
 ## Toolchain Verification
 
-### Spike Version
-### Output of ``` spike -version ```
-### (Note: - ``` spike --help | head -1 ``` used instead of ``` spike -version```)
+### Spike Version and riscv64-unknown-elf-gcc -v (both in the same screenshot)
+### Output
 <img width="752" height="49" alt="spike -version" src="https://github.com/user-attachments/assets/cdea4e35-a52f-4033-ba04-b613a1fffade" />
-
-### riscv64-unknown-elf-gcc -v
-### Output of ``` riscv64-unknown-elf-gcc -v ```
-<img width="1219" height="589" alt="image" src="https://github.com/user-attachments/assets/1affd46f-36e9-44e9-a046-f7195f2634e5" />
-
 
 ### Compile Commands: -
 
