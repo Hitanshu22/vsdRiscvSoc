@@ -1,6 +1,6 @@
 # Task 2 — Proving RISC-V Toolchain Setup (Run, Disassemble, Decode)
 
-## This repository is part of the VSD RISC-V SoC Workshop. In Task 2, the goal is to prove that the RISC-V toolchain is correctly installed and functional on the local machine.
+# This repository is part of the VSD RISC-V SoC Workshop. In Task 2, the goal is to prove that the RISC-V toolchain is correctly installed and functional on the local machine.
 
 ## The following steps were performed: -
 - Compiled 4 unique C programs using `riscv64-unknown-elf-gcc`
@@ -13,13 +13,14 @@
 ## Toolchain Verification
 
 ### Spike Version
-#### Output of ``` spike -version ```
-#### (Note: - ``` spike --help | head -1 ``` used instead of ``` spike -version```)
+### Output of ``` spike -version ```
+### (Note: - ``` spike --help | head -1 ``` used instead of ``` spike -version```)
 <img width="752" height="49" alt="spike -version" src="https://github.com/user-attachments/assets/cdea4e35-a52f-4033-ba04-b613a1fffade" />
 
 ### riscv64-unknown-elf-gcc -v
-#### Output of ``` riscv64-unknown-elf-gcc -v ```
-<img width="1198" height="327" alt="riscv64-unknown-elf-gcc -v" src="https://github.com/user-attachments/assets/dde55d4a-0067-46ab-bd9c-cf863f78bdfb" />
+### Output of ``` riscv64-unknown-elf-gcc -v ```
+<img width="1219" height="589" alt="image" src="https://github.com/user-attachments/assets/1affd46f-36e9-44e9-a046-f7195f2634e5" />
+
 
 ### Compile Commands: -
 
@@ -63,7 +64,7 @@ bubble_sort.c -o bubble_sort
 - `BUILD_EPOCH`
 - `Program name`
 
-#### These fields ensure the build is unique to my machine and identity. All screenshots and output files (e.g., `factorial_output.png`, `bitops_output.png`) clearly show these values for verification.
+### These fields ensure the build is unique to my machine and identity. All screenshots and output files (e.g., `factorial_output.png`, `bitops_output.png`) clearly show these values for verification.
 
 
 
