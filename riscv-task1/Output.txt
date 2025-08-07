@@ -1,0 +1,6 @@
+bbl loader
+RISC-V Uniqueness Check
+User: hitanshu
+Host: hitanshu-VirtualBox
+UniqueID: 0xa724d90848b802a0
+GCC_VLEN: 5
