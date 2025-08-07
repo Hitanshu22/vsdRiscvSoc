@@ -78,7 +78,8 @@ export PATH=$pwd/riscv_toolchain/riscv64-unknown-elf-gcc-8.3.0-2019.08.0-x86_64-
 ```bash
 echo 'export PATH=$HOME/riscv_toolchain/riscv64-unknown-elf-gcc-8.3.0-2019.08.0-x86_64-linux-ubuntu14/bin:$PATH' >> ~/.bashrc
 ```
-[text](<WhatsApp Image 2025-08-07 at 21.56.57_fac61c9f.jpg>)
+![WhatsApp Image 2025-08-07 at 21 56 57_2f4aadfb](https://github.com/user-attachments/assets/9f72e77e-6c38-4c4b-88fc-ed6c628f3860)
+
 ### If you get error:
 
 > `riscv64-unknown-elf-gdb: error while loading shared libraries: libncurses.so.5`
@@ -92,7 +93,8 @@ wget http://archive.ubuntu.com/ubuntu/pool/universe/n/ncurses/libncurses5_6.3-2u
 sudo dpkg -i libtinfo5_6.3-2ubuntu0.1_amd64.deb
 sudo dpkg -i libncurses5_6.3-2ubuntu0.1_amd64.deb
 ```
-![alt text](<WhatsApp Image 2025-08-07 at 22.15.24_d6220834.jpg>)
+![WhatsApp Image 2025-08-07 at 22 15 24_6f9db32a](https://github.com/user-attachments/assets/8f206835-fe86-4187-8c94-3e5770da6e28)
+
 ### Task 5 — Install Device Tree Compiler (DTC)
 
 ```bash
@@ -161,9 +163,10 @@ which spike
 spike --version
 which pk
 ```
-![alt text](<WhatsApp Image 2025-08-07 at 19.47.55_6b6ba80d.jpg>)
-![alt text](<WhatsApp Image 2025-08-07 at 19.47.54_e634b506.jpg>)
-![alt text](<WhatsApp Image 2025-08-07 at 19.47.54_7ae53af6.jpg>)
+![WhatsApp Image 2025-08-07 at 19 47 55_668799dd](https://github.com/user-attachments/assets/76a125e4-3c89-47b0-8bc1-cbb30d2d2a4f)
+![WhatsApp Image 2025-08-07 at 19 47 54_976eba44](https://github.com/user-attachments/assets/4083a22b-bd8c-42fb-9dba-e12888da9cd3)
+![WhatsApp Image 2025-08-07 at 19 47 54_f3c32293](https://github.com/user-attachments/assets/25e77e55-393f-4d37-9f95-1a9ebfaea7d4)
+
 ---
 
 ## Final Deliverable: Unique C Test
@@ -211,14 +214,16 @@ int main(void) {
     return 0;
 }
 ```
-![alt text](<WhatsApp Image 2025-08-07 at 22.25.20_b6ca6473.jpg>)
+![WhatsApp Image 2025-08-07 at 22 25 20_45f45bb9](https://github.com/user-attachments/assets/000ac757-3b37-4353-826a-29eaf95023f7)
+
 ### 2. Compile with Injected Identity
 
 ```bash
 echo "Username: '$(id -un)'"
 echo "Hostname: '$(hostname -s)'"
 ```
-![alt text](<WhatsApp Image 2025-08-07 at 21.56.57_dca96653.jpg>)
+
+![WhatsApp Image 2025-08-07 at 21 56 57_1c25aede](https://github.com/user-attachments/assets/e2ae1732-828b-492c-9cf8-81dc10bb62c3)
 ```bash
 riscv64-unknown-elf-gcc -O2 -Wall -march=rv64imac -mabi=lp64 \
 -DUSERNAME='"hitanshu"' -DHOSTNAME='"hitanshu-VirtualBox"' \
@@ -233,7 +238,8 @@ spike pk ./unique_test
 
 ---
 **Output**:-
-![alt text](<WhatsApp Image 2025-08-07 at 19.47.55_0f7d11e6.jpg>)
+![WhatsApp Image 2025-08-07 at 19 47 55_6aa004d7](https://github.com/user-attachments/assets/538f65ec-3ace-4d6a-b3f2-a00ec4ecaf77)
+
 ## Conclusion
 This task provided valuable hands-on experience with the bare-metal RISC-V development workflow — covering everything from toolchain setup to compiling and executing C programs on an ISA-level simulator. Successfully performing these steps on Ubuntu enhanced my understanding of open-source hardware development and low-level Linux-based toolchains.
 
