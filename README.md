@@ -63,7 +63,8 @@ cd riscv_toolchain
 wget "https://static.dev.sifive.com/dev-tools/riscv64-unknown-elf-gcc-8.3.0-2019.08.0-x86_64-linux-ubuntu14.tar.gz"
 tar -xvzf riscv64-unknown-elf-gcc-8.3.0-2019.08.0-x86_64-linux-ubuntu14.tar.gz
 ```
-![alt text](<WhatsApp Image 2025-08-07 at 21.56.58_688a8546.jpg>)
+![WhatsApp Image 2025-08-07 at 21 56 58_de537837](https://github.com/user-attachments/assets/be4a89ea-1642-41e6-b094-9d7bb71a17b5)
+
 ### Task 4 — Add Toolchain to PATH
 
 **Temporary (current shell):**
