@@ -12,7 +12,7 @@ This repository documents the steps and verification outputs for **Task 1** of t
 - Built and tested **Spike** (ISA simulator)
 - Installed and verified **Proxy Kernel (pk)**
 - Ran a C-based **uniqueness test** on `spike pk`
-- Platform: Rocky Linux (RHEL-based alternative to Ubuntu)
+- Platform: Ubuntu
 
 ---
 
