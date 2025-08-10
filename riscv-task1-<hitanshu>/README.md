@@ -13,12 +13,12 @@
 ## Toolchain Verification
 
 ### riscv64-unknown-elf-gcc -v
-#### Output of ``` riscv64-unknown-elf-gcc -v ```
+## Output of ``` riscv64-unknown-elf-gcc -v ```
 ![WhatsApp Image 2025-08-10 at 12 16 55_7917fb11](https://github.com/user-attachments/assets/2406b237-ace9-4941-9184-6ed06ce27b67)
 
 ### Spike Version
-### Output of ``` spike -version ```
-### (Note: - ``` spike --help | head -1 ``` used instead of ``` spike -version```)
+## Output of ``` spike -version ```
+# (Note: - ``` spike --help ``` used instead of ``` spike -version```)
 ![WhatsApp Image 2025-08-10 at 12 16 56_9592b73a](https://github.com/user-attachments/assets/640d6eb4-85bd-4c09-9b3c-01ffe99d02d2)
 
 
