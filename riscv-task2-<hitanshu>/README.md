@@ -31,7 +31,6 @@ factorial.c -o factorial
 hitanshu@hitanshu-VirtualBox:~/riscv_toolchain/riscv_task2$ spike /home/hitanshu/riscv_toolchain/riscv-pk/build/pk./factorial
 bbl loader
 === RISC-V Proof Header ===
-
 User        : hitanshu
 Host        : hitanshu-VirtualBox
 MachineID   : 27a468446aba4450
@@ -58,19 +57,18 @@ max_array.c -o max_array
 hitanshu@hitanshu-VirtualBox:~/riscv_toolchain/riscv_task2$ spike /home/hitanshu/riscv_toolchain/riscv-pk/build/pk./max_array
 bbl loader
 === RISC-V Proof Header ===
-
 User        : hitanshu
 Host        : hitanshu-VirtualBox
 MachineID   : 27a468446aba4450
-BuildUTC    : 2025-08-07T08:17:53Z
-BuildEpoch  : 1754554673
+BuildUTC    : 2025-08-07T08:24:15Z
+BuildEpoch  : 1754555055
 GCC         : 8.3.0
 PointerBits : 64
-Program     : factorial
-Proof ID    : 0x7d0d5dd62d6c0b16
-RunID       : 0x5f584f107f9ba020
-=======================
-n=12, n!=479001600
+Program     : max_array
+Proof ID    : 0x98e29a9b43477a96
+RunID       : 0x150d5be355b7b7a0
+===========================
+Array length=9, Max=88
 ```
 
 ### For bitops.c
@@ -95,7 +93,7 @@ PointerBits : 64
 Program     : bitops
 ProofID     : 0xf4fee99fc39d7c76
 RunID       : 0xd8901912617d5ec0
-==========================
+===========================
 x&y=0x05050024
 xy=0xAFAFB7B5
 x^y=0xAAAAB791
@@ -115,7 +113,6 @@ bubble_sort.c -o bubble_sort
 hitanshu@hitanshu-VirtualBox:~/riscv_toolchain/riscv_task2$ spike /home/hitanshu/riscv_toolchain/riscv-pk/build/pk./bubble_sort
 bbl loader
 === RISC-V Proof Header ===
-
 User        : hitanshu
 Host        : hitanshu-VirtualBox
 MachineID   : 27a468446aba4450
@@ -126,7 +123,7 @@ PointerBits : 64
 Program     : bubble_sort
 Proof ID    : 0xe07db27328a25832
 RunID       : 0xff33021379485924
-=======================
+============================
 Sorted: 1 2 3 4 5 6 7 8 9
 ```
 
