@@ -28,6 +28,8 @@ factorial.c -o factorial
 ```
 #### Short text run log
 ```
+hitanshu@hitanshu-VirtualBox:~/riscv_toolchain/riscv_task2$ spike /home/hitanshu/riscv_toolchain/riscv-pk/build/pk./factorial
+bbl loader
 === RISC-V Proof Header ===
 
 User        : hitanshu
@@ -53,6 +55,8 @@ max_array.c -o max_array
 ```
 #### Short text run log
 ```
+hitanshu@hitanshu-VirtualBox:~/riscv_toolchain/riscv_task2$ spike /home/hitanshu/riscv_toolchain/riscv-pk/build/pk./max_array
+bbl loader
 === RISC-V Proof Header ===
 
 User        : hitanshu
@@ -78,20 +82,25 @@ bitops.c -o bitops
 ```
 #### Short text run log
 ```
+hitanshu@hitanshu-VirtualBox:~/riscv_toolchain/riscv_task2$ spike /home/hitanshu/riscv_toolchain/riscv-pk/build/pk./bitops
+bbl loader
 === RISC-V Proof Header ===
-
 User        : hitanshu
 Host        : hitanshu-VirtualBox
-MachineID   : 27a468446aba4450
-BuildUTC    : 2025-08-07T08:17:53Z
-BuildEpoch  : 1754554673
+Machine ID  : 27a468446aba4450
+BuildUTC    : 2025-08-07T08:33:02Z
+BuildEpoch  : 1754555582
 GCC         : 8.3.0
 PointerBits : 64
-Program     : factorial
-Proof ID    : 0x7d0d5dd62d6c0b16
-RunID       : 0x5f584f107f9ba020
-=======================
-n=12, n!=479001600
+Program     : bitops
+ProofID     : 0xf4fee99fc39d7c76
+RunID       : 0xd8901912617d5ec0
+==========================
+x&y=0x05050024
+xy=0xAFAFB7B5
+x^y=0xAAAAB791
+x<<3=0x2D2D2D28
+y>>2=0x03C3C48D
 ```
 
 ### For bubble_sort.c
@@ -103,6 +112,8 @@ bubble_sort.c -o bubble_sort
 ```
 #### Short text run log
 ```
+hitanshu@hitanshu-VirtualBox:~/riscv_toolchain/riscv_task2$ spike /home/hitanshu/riscv_toolchain/riscv-pk/build/pk./bubble_sort
+bbl loader
 === RISC-V Proof Header ===
 
 User        : hitanshu
