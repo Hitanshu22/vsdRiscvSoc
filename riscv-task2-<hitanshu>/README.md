@@ -27,7 +27,7 @@ riscv64-unknown-elf-gcc -O0 -g -march=rv64imac -mabi=lp64 \
 factorial.c -o factorial
 ```
 # short run text
-``
+```
 === RISC-V Proof Header ===
 
 User : hitanshu
@@ -42,7 +42,7 @@ Proof ID : 0x7d0d5dd62d6c0b16
 RunID : 0x5f584f107f9ba020
 =======================
 n=12, n!=479001600
-``
+```
 
 ### For max_array.c
 ```
