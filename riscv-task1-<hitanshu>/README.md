@@ -41,7 +41,7 @@ This repository documents the steps and verification outputs for **Task 1** of t
 ## Environment Setup & Execution Steps
 
 ## Spike version
-**Command:** ```spike -version```
+**Command:** ```spike --help```
 
 **Output:** Spike RISC-V ISA Simulator 1.1.1-dev
 
