@@ -50,6 +50,11 @@ This repository documents the steps and verification outputs for **Task 1** of t
 
 **Output:** gcc version 8.3.0 (SiFive GCC 8.3.0-2019.08.0)
 
+## pk version
+**Command:** ```which pk```
+
+**Output:** Spike RISC-V ISA Simulator 1.1.1-dev
+
 ### Task 1 — Install Base Developer Tools
 
 ```bash
