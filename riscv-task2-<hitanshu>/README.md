@@ -19,7 +19,7 @@
 
 ### Compile Commands: -
 
-### For factorial.c
+### 1. For factorial.c
 ```
 riscv64-unknown-elf-gcc -O0 -g -march=rv64imac -mabi=lp64 \
 -DUSERNAME="\"$U\"" -DHOSTNAME="\"$H\"" -DMACHINE_ID="\"$M\"" \
@@ -45,7 +45,7 @@ RunID       : 0x5f584f107f9ba020
 n=12, n!=479001600
 ```
 
-### For max_array.c
+### 2. For max_array.c
 ```
 riscv64-unknown-elf-gcc -O0 -g -march=rv64imac -mabi=lp64 \
 -DUSERNAME="\"$U\"" -DHOSTNAME="\"$H\"" -DMACHINE_ID="\"$M\"" \
@@ -71,7 +71,7 @@ RunID       : 0x150d5be355b7b7a0
 Array length=9, Max=88
 ```
 
-### For bitops.c
+### 3. For bitops.c
 ```
 riscv64-unknown-elf-gcc -O0 -g -march=rv64imac -mabi=lp64 \
 -DUSERNAME="\"$U\"" -DHOSTNAME="\"$H\"" -DMACHINE_ID="\"$M\"" \
@@ -101,7 +101,7 @@ x<<3=0x2D2D2D28
 y>>2=0x03C3C48D
 ```
 
-### For bubble_sort.c
+### 4. For bubble_sort.c
 ```
 riscv64-unknown-elf-gcc -O0 -g -march=rv64imac -mabi=lp64 \
 -DUSERNAME="\"$U\"" -DHOSTNAME="\"$H\"" -DMACHINE_ID="\"$M\"" \
