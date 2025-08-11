@@ -40,6 +40,17 @@ This repository documents the steps and verification outputs for **Task 1** of t
 
 ## Environment Setup & Execution Steps
 
+## Spike version
+**Command:** ```spike -version```
+
+**Output:** Spike RISC-V ISA Simulator 1.1.1-dev
+
+___
+## GCC version
+**Command:** ```riscv64-unknown-elf-gcc -v```
+
+**Output:** gcc version 8.3.0 (SiFive GCC 8.3.0-2019.08.0)
+
 ### Task 1 — Install Base Developer Tools
 
 ```bash
