@@ -45,7 +45,6 @@ This repository documents the steps and verification outputs for **Task 1** of t
 
 **Output:** Spike RISC-V ISA Simulator 1.1.1-dev
 
-___
 ## GCC version
 **Command:** ```riscv64-unknown-elf-gcc -v```
 
